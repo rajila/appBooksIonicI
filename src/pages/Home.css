@@ -1,0 +1,13 @@
+.content {
+    border: 1px solid red;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.detalle-album {
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+}
