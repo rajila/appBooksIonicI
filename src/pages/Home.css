@@ -1,5 +1,6 @@
 .content {
-    border: 1px solid red;
+    width: 85%;
+    margin: auto;
 }
 
 .main-content {
@@ -7,7 +8,54 @@
 }
 
 .detalle-album {
-    width: 60%;
+    width: 80%;
     margin: auto;
     text-align: justify;
+    padding: 20px 0px 20px 0px;
+}
+
+img.portada-card {
+    width: 250px;
+    height: 320px;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-end {
+    text-align: end;
+}
+
+.flex {
+    display: flex;
+}
+
+.descripcion-min-card {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.description-card{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.content-footer {
+    display: flex;
+}
+
+.boton-card {
+    width: 40%;
+}
+
+.custom-card {
+  border: 1px solid #bebebe;  /* Cambia el color aquí */
+  border-radius: 8px;         /* Opcional, para bordes redondeados */
 }
